@@ -9,8 +9,12 @@ El objetivo de este proyecto es capturar audio utilizando un ESP32-S3, almacenar
 - ESP32-S3
 - Tarjeta SD y lector de tarjetas
 - Micrófono compatible con I2S
-- Cables de conexión
-- Fuente de alimentación
+- Librerias:
+```.ini
+    lib_deps = 
+    	bblanchon/ArduinoJson@^7.0.4
+    	esphome/ESP32-audioI2S@^2.0.7
+```
 
 ## Procedimiento
 
